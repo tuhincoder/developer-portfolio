@@ -1,0 +1,46 @@
+/* shared style  */
+.primary-button {
+    border-radius: 5px;
+    background-color: orange;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    padding: 15px 15px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.primary-color {
+    color: orange;
+}
+
+
+
+.nav-title {
+    font-size: 45px;
+    color: #181818;
+    font-weight: 800px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+ul {
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
