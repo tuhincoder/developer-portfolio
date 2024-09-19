@@ -84,6 +84,11 @@ header {
 }
 
 /* about section style */
+main {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
 .about {
     background-color: bisque;
     padding: 130px;
@@ -103,4 +108,26 @@ header {
     text-align: center;
     font-size: 18px;
     font-family: Open Sans;
+}
+
+/* about information */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+
+}
+
+.info-title {
+    margin-bottom: 2px;
+
+}
+
+.info-description {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
 }
