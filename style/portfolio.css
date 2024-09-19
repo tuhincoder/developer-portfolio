@@ -156,3 +156,8 @@ main section {
 .skill-description {
     color: grey;
 }
+
+.resume-container {
+    display: flex;
+
+}
