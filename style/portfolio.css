@@ -1,5 +1,5 @@
 /* shared style  */
-.primary-button {
+.btn-primary {
     border-radius: 5px;
     background-color: orange;
     border: 0;
@@ -48,16 +48,59 @@ nav a {
 
 header {
     background-color: bisque;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* banner */
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+/* .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 30px;
+
+} */
+
 .banner .profile-pic {
-    width: 400px;
+    width: 500px;
+}
+
+.text-greeting {
+    font-size: 30px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: gray;
+
+}
+
+/* about section style */
+.about {
+    background-color: bisque;
+    padding: 130px;
+    margin: 130px 0;
+    border-radius: 10px;
+}
+
+.section-title {
+    color: gray;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    text-align: center;
+    font-size: 18px;
+    font-family: Open Sans;
 }
